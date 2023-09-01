@@ -32,7 +32,7 @@ if __name__ == "__main__":
  | || '_ \| '_ \ / _ \ / __/ _ \ '_ \| __| |  _ \ / _ \| | | |
  | || | | | | | | (_) | (_|  __/ | | | |_  | |_) | (_) | |_| |
 |___|_| |_|_| |_|\___/ \___\___|_| |_|\__| |____/ \___/ \__, |
-                                     Noting Impossible  |___/ """)
+                                 Nothing is Impossible  |___/ """)
     while True:
         print("1. Organize File.\n2. Exit.")
         input_value=input("Enter Option: ")
@@ -44,4 +44,3 @@ if __name__ == "__main__":
             retrun_file=File_organizer_by_extension(directory_path)
         else:
             break
-
