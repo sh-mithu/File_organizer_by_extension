@@ -1,7 +1,5 @@
 import os
 import shutil
-import pyfiglet
-
 
 def File_organizer_by_extension(directory_path):
     if not os.path.exists(directory_path):
@@ -29,7 +27,12 @@ def File_organizer_by_extension(directory_path):
 
 if __name__ == "__main__":
 
-    print(pyfiglet.figlet_format("Innocent Boy",width = 100))
+    print(""" ___                                  _     ____
+|_ _|_ __  _ __   ___   ___ ___ _ __ | |_  | __ )  ___  _   _
+ | || '_ \| '_ \ / _ \ / __/ _ \ '_ \| __| |  _ \ / _ \| | | |
+ | || | | | | | | (_) | (_|  __/ | | | |_  | |_) | (_) | |_| |
+|___|_| |_|_| |_|\___/ \___\___|_| |_|\__| |____/ \___/ \__, |
+                                     Noting Impossible  |___/ """)
     while True:
         print("1. Organize File.\n2. Exit.")
         input_value=input("Enter Option: ")
