@@ -26,13 +26,16 @@ def File_organizer_by_extension(directory_path):
 
 
 if __name__ == "__main__":
-
-    print(""" ___                                  _     ____
-|_ _|_ __  _ __   ___   ___ ___ _ __ | |_  | __ )  ___  _   _
- | || '_ \| '_ \ / _ \ / __/ _ \ '_ \| __| |  _ \ / _ \| | | |
- | || | | | | | | (_) | (_|  __/ | | | |_  | |_) | (_) | |_| |
-|___|_| |_|_| |_|\___/ \___\___|_| |_|\__| |____/ \___/ \__, |
-                                 Nothing is Impossible  |___/ """)
+    reset = "\033[0m"
+    cyan = "\033[36m"
+    print(cyan)
+    print("""     ___                                  _     ____
+    |_ _|_ __  _ __   ___   ___ ___ _ __ | |_  | __ )  ___  _   _
+     | || '_ \| '_ \ / _ \ / __/ _ \ '_ \| __| |  _ \ / _ \| | | |
+     | || | | | | | | (_) | (_|  __/ | | | |_  | |_) | (_) | |_| |
+    |___|_| |_|_| |_|\___/ \___\___|_| |_|\__| |____/ \___/ \__, |
+                                     Nothing is Impossible  |___/""")
+    print(reset)
     while True:
         print("1. Organize File.\n2. Exit.")
         input_value=input("Enter Option: ")
@@ -44,3 +47,4 @@ if __name__ == "__main__":
             retrun_file=File_organizer_by_extension(directory_path)
         else:
             break
+
